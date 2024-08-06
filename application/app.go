@@ -4,6 +4,8 @@ import (
 	"context"
 	"fmt"
 	"net/http"
+
+	"github.com/redis/go-redis/v9"
 )
 
 type App struct {
@@ -26,7 +28,7 @@ func (a *App) Start(ctx context.Context) error{
 	
 	err := server.ListenAndServe()
 	if err != nil {
-		return fmt.Errorf("Failed to start server: %w", err)
+		return fmt.Errorf("failed to start server: %w", err)
 	}
 	
 	return nil
