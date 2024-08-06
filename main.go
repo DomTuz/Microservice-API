@@ -4,9 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	// "github.com/DomTuz/Microservice-API/application"
-	"github.com/DomTuz/Capstone-Mini-Project-Microservice-API/application"
-
+	"github.com/DomTuz/Microservice-API/application"
 )
 
 func main() {
