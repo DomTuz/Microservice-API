@@ -64,5 +64,5 @@ func (a *App) Start(ctx context.Context) error{
 		return server.Shutdown(timeout) // Graceful Shutdown - Tells the client to finish up any operations before shutting down/terminating the server i.e. handling http requests or writing to a database
 	}
 
-	return nil
+	// return nil
 }
