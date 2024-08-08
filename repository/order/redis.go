@@ -5,7 +5,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/Microservice-API/model"
+	"github.com/DomTuz/Microservice-API/model"
 )
 
 type RedisRepo struct {
